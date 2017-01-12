@@ -1,0 +1,23 @@
+{
+  "name": "libidn",
+  "version": "0.1.0",
+  "description": "Port of GNU Libidn to Javascript.",
+  "keywords": ["idn", "stringprep", "unicode"],
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/grunt-simple-mocha/node_modules/.bin/mocha --ui tdd --reporter spec"
+  },
+  "repository": "https://github.com/nubgames/node-libidn.git",
+  "author": "Eric Sessoms <eric@nubgames.com>",
+  "license": "LGPL",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "underscore.string": "~2.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-simple-mocha": "~0.3.2"
+  }
+}
