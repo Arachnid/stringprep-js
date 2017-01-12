@@ -1,14 +1,14 @@
 {
-  "name": "libidn",
+  "name": "stringprep",
   "version": "0.1.0",
-  "description": "Port of GNU Libidn to Javascript.",
-  "keywords": ["idn", "stringprep", "unicode"],
+  "description": "Pure-Javascript stringprep implementation. Fork of the moribund NPM 'libidn' package.",
+  "keywords": ["idn", "stringprep", "unicode", "nameprep"],
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/grunt-simple-mocha/node_modules/.bin/mocha --ui tdd --reporter spec"
   },
   "repository": "https://github.com/nubgames/node-libidn.git",
-  "author": "Eric Sessoms <eric@nubgames.com>",
+  "author": "Eric Sessoms <eric@nubgames.com>, Nick Johnson <arachnid@notdot.net>",
   "license": "LGPL",
   "readmeFilename": "README.md",
   "dependencies": {
