@@ -5,7 +5,7 @@
   "keywords": ["idn", "stringprep", "unicode", "nameprep"],
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/grunt-simple-mocha/node_modules/.bin/mocha --ui tdd --reporter spec"
+    "test": "mocha --ui tdd --reporter spec"
   },
   "repository": "https://github.com/nubgames/node-libidn.git",
   "author": "Eric Sessoms <eric@nubgames.com>, Nick Johnson <arachnid@notdot.net>",
